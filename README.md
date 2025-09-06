@@ -11,7 +11,7 @@ This is a modern, responsive website built with HTML and CSS. It features a rele
 - Easy-to-read typography
 
 
-##link for background image:
+**link for background image:**
 https://mir-s3-cdn-cf.behance.net/project_modules/1400/b9ee7d98855203.5ee5db1cb56f8.jpg
    
 
