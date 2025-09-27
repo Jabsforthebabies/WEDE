@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Book a Service</h1>
+    <nav>
+      <a href="spotless.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+      <a href="aboutus.html">About Us</a>
+    </nav>
+  </header>
+  <div class="resizable-container">
+    <main>
+     
+
+      <section>
+        <h2>Schedule Your Appointment</h2>
+        <form id="bookingForm" action="#" method="post">
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="service">Select Service:</label><br>
+          <select id="service" name="service" required>
+            <option value="">--Please choose an option--</option>
+            <option value="Express">Express Wash</option>
+            <option value="Full">Full Detail</option>
+            <option value="eco">Eco-Friendly Option</option>
+            <option value="Fleet">Fleet Packages</option>
+          </select><br><br>
+
+          <label for="date">Preferred Date:</label><br>
+          <input type="date" id="date" name="date" required><br><br>
+
+          <label for="time">Preferred Time:</label><br>
+          <input type="time" id="time" name="time" required><br><br>
+
+          <button type="submit">Book Now</button>
+        </form>
+        <script>
+  document.getElementById('bookingForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you! Your appointment has been booked.');
+    this.reset();
+  });
+</script>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; 2025 Spotless Carwash. All rights reserved.</p>
+  </footer>
+</body>
+</html>
